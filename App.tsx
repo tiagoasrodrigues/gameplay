@@ -7,6 +7,7 @@ import AppLoading from 'expo-app-loading'
 
 import { Routes } from './src/routes';
 import { Background } from './src/components/Background'
+import { theme } from './src/global/styles/theme';
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -24,7 +25,7 @@ export default function App() {
     <Background>
       <StatusBar
         barStyle="light-content"
-        backgroundColor="trasparent"
+        backgroundColor={theme.colors.secondary80}
         translucent
       />
       <Routes />

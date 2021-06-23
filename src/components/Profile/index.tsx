@@ -18,7 +18,7 @@ export function Profile() {
 
           <Text style={styles.username}>
             Tiago
-        </Text>
+          </Text>
         </View>
 
         <Text style={styles.message}>
