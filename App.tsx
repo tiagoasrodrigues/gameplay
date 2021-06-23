@@ -25,7 +25,7 @@ export default function App() {
     <Background>
       <StatusBar
         barStyle="light-content"
-        backgroundColor={theme.colors.secondary80}
+        backgroundColor="transparent"
         translucent
       />
       <Routes />
