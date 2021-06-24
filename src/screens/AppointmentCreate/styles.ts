@@ -32,7 +32,8 @@ export const styles = StyleSheet.create({
   image: {
     width: 64,
     height: 68,
-    backgroundColor: theme.colors.secondary50,
+    backgroundColor: theme.colors.secondary40,
+    borderColor: theme.colors.secondary50,
     borderWidth: 1,
     borderRadius: 8
   },
@@ -58,7 +59,7 @@ export const styles = StyleSheet.create({
     color: theme.colors.highlight
   },
   footer: {
-    marginVertical: 20,
+    marginVertical: 56,
     marginBottom: 56
   }
 })
