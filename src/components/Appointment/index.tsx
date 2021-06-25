@@ -36,7 +36,7 @@ export function Appointment({ data, ...rest }: Props) {
           style={styles.guildIconContainer}
           colors={[secondary50, secondary70]}
         >
-          <GuildIcon />
+          <GuildIcon guildId={data.guild.id} iconId={data.guild.icon} />
         </LinearGradient>
 
         <View style={styles.content}>
@@ -63,7 +63,8 @@ export function Appointment({ data, ...rest }: Props) {
               <PlayerSvg fill={owner ? primary : on} />
 
               <Text style={[
-                styles.player, { color: owner ? primary : on }
+                styles.player,
+                { color: owner ? primary : on }
               ]}>
                 {owner ? 'Anfitrião' : 'Visitante'}
               </Text>

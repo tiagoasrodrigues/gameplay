@@ -13,7 +13,7 @@ import {
   KeyboardAvoidingView,
 } from 'react-native';
 
-import { COLLECTION_APPOINTMENT } from '../../configs/database'
+import { COLLECTION_APPOINTMENTS } from '../../configs/database'
 import { theme } from '../../global/styles/theme';
 import { styles } from './styles';
 
@@ -67,11 +67,11 @@ export function AppointmentCreate() {
       description
     };
 
-    const storage = await AsyncStorage.getItem(COLLECTION_APPOINTMENT);
+    const storage = await AsyncStorage.getItem(COLLECTION_APPOINTMENTS);
     const appointments = storage ? JSON.parse(storage) : [];
 
     await AsyncStorage.setItem(
-      COLLECTION_APPOINTMENT,
+      COLLECTION_APPOINTMENTS,
       JSON.stringify([...appointments, newAppointment])
     );
 
