@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Fontisto } from '@expo/vector-icons';
 import { useRoute } from '@react-navigation/native';
 import { BorderlessButton } from 'react-native-gesture-handler';
+import * as Linking from 'expo-linking'
 
 import {
   ImageBackground,
@@ -67,7 +68,11 @@ export function AppointmentDetails() {
     Share.share({
       message,
       url: widget.instant_invite
-    })
+    });
+  }
+
+  function handleOpenGuild() {
+    Linking.openURL(widget.instant_invite);
   }
 
   useEffect(() => {
@@ -125,9 +130,16 @@ export function AppointmentDetails() {
             />
           </>
       }
-      <View style={styles.footer}>
-        <ButtonIcon title="Entrar na partida" />
-      </View>
+
+      {
+        guildSelected.guild.owner &&
+        <View style={styles.footer}>
+          <ButtonIcon
+            title="Entrar na partida"
+            onPress={handleOpenGuild}
+          />
+        </View>
+      }
     </Background>
   );
 }
