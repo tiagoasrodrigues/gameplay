@@ -55,7 +55,7 @@ Aplicativo para lhe ajudar a conectar-se e organiza o momento de diversão e jog
 <table>
   <tr>
     <td align="center">
-      <a href="http://github.com/dev-tiago-augusto/">
+      <a href="https://github.com/tiagoasrodrigues/">
         <img src="https://avatars.githubusercontent.com/u/68797494?v=4" width="100px;" alt="Tiago Augusto"/>
         <br />
         <sub>
