@@ -48,18 +48,48 @@ Aplicativo para lhe ajudar a conectar-se e organiza o momento de diversão e jog
 -   [ ] React Native Share
 -   [ ] Deep Link
 
+<br />
+
+# :computer: Autores
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="http://github.com/dev-tiago-augusto/">
+        <img src="https://avatars.githubusercontent.com/u/68797494?v=4" width="100px;" alt="Tiago Augusto"/>
+        <br />
+        <sub>
+          <b>Tiago Augusto</b>
+        </sub>
+       </a>
+       <br />
+       <a href="https://www.linkedin.com/in/dev-tiago-augusto/" title="Linkedin">@dev-tiago-augusto</a>
+       <br />
+       <a href="https://www.instagram.com/tiagoaugustosr/" title="Instagram">@tiagoaugustosr</a>
+       <br />
+       <a href="https://github.com/tiagoasrodrigues?tab=repositories" title="Code">💻</a>
+    </td>
+    <td align="center">
+      <a href="http://github.com/rocketseat-education/">
+        <img src="https://i.ibb.co/ncfCmVy/logo-rocketseat.png" width="100px;" alt="Rocketseat"/>
+        <br />
+        <sub>
+          <b>Rocketseat</b>
+        </sub>
+       </a>
+       <br />
+       <a href="https://www.linkedin.com/school/rocketseat/" title="Linkedin">@Rocketseat</a>
+       <br />
+        <a href="https://www.instagram.com/rocketseat_oficial/" title="Instagram">@rocketseat_oficial</a>
+       <br />
+       <a href="https://github.com/rocketseat-education" title="Creators">🚀</a>
+    </td>
+  </tr>
+</table>
+
+<br />
+
 ## 📄 Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
-
-
-<br />
-
-<div align="center">
-  
-  Esse projeto foi feito na edição NLW Together
-
-  [![Instagram Badge](https://img.shields.io/badge/-tiagoaugustosr-black?style=flat-square&labelColor=black&logo=instagram&logoColor=white&link=https://www.instagram.com/tiagoaugustosr/)](https://www.instagram.com/tiagoaugustosr/) 
-  [![Linkedin Badge](https://img.shields.io/badge/-Tiago%20Augusto-black?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/dev-tiago-augusto/)](https://www.linkedin.com/in/dev-tiago-augusto/) 
-</div>
