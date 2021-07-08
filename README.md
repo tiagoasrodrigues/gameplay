@@ -58,7 +58,7 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 
 <div align="center">
   
-  Esse projeto foi feito na edição NLW Together da Rocketseat
+  Esse projeto foi feito na edição NLW Together
 
   [![Instagram Badge](https://img.shields.io/badge/-tiagoaugustosr-black?style=flat-square&labelColor=black&logo=instagram&logoColor=white&link=https://www.instagram.com/tiagoaugustosr/)](https://www.instagram.com/tiagoaugustosr/) 
   [![Linkedin Badge](https://img.shields.io/badge/-Tiago%20Augusto-black?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/dev-tiago-augusto/)](https://www.linkedin.com/in/dev-tiago-augusto/) 
